@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "email": "abc@email.com",
+      "name": "ABC",
+      "password": "$2b$12$po.ZM7h32ec3U15hakXNE.MPKOhSb/0XBQN3Itu2UNizZDe4ZbYe2",
+      "id": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "createdAt": "2026-06-06T08:24:50.746Z",
+      "updatedAt": "2026-06-06T08:24:50.746Z"
+    }
+  ],
+  "projects": [
+    {
+      "name": "My First Project",
+      "description": "A sample project to get you started",
+      "color": "#6366f1",
+      "userId": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "id": "4e2c5100-6bdb-4764-ac59-91b4efd83185",
+      "createdAt": "2026-06-06T08:24:50.758Z",
+      "updatedAt": "2026-06-06T08:24:50.758Z"
+    },
+    {
+      "name": "TRPC",
+      "description": "Web Dev",
+      "color": "#ef4444",
+      "userId": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "id": "acb30727-4410-45f4-bfa9-6c52fcb7805c",
+      "createdAt": "2026-06-06T09:42:01.054Z",
+      "updatedAt": "2026-06-06T09:42:01.054Z"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Review project requirements",
+      "status": "done",
+      "priority": "high",
+      "userId": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "projectId": "4e2c5100-6bdb-4764-ac59-91b4efd83185",
+      "tags": [
+        "planning"
+      ],
+      "id": "32c59bf4-eeba-4131-ae6a-8f872eb33827",
+      "createdAt": "2026-06-06T08:24:50.760Z",
+      "updatedAt": "2026-06-06T08:24:50.760Z"
+    },
+    {
+      "title": "Set up development environment",
+      "status": "done",
+      "priority": "medium",
+      "userId": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "projectId": "4e2c5100-6bdb-4764-ac59-91b4efd83185",
+      "tags": [
+        "setup"
+      ],
+      "id": "f41fcc77-c673-4759-9389-bb4886fd7f1e",
+      "createdAt": "2026-06-06T08:24:50.762Z",
+      "updatedAt": "2026-06-06T08:24:50.762Z"
+    },
+    {
+      "title": "Build the MVP",
+      "status": "in_progress",
+      "priority": "urgent",
+      "userId": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "projectId": "4e2c5100-6bdb-4764-ac59-91b4efd83185",
+      "tags": [
+        "dev"
+      ],
+      "id": "1c968fc7-bf16-475c-999c-524551f35e3e",
+      "createdAt": "2026-06-06T08:24:50.764Z",
+      "updatedAt": "2026-06-06T08:24:50.764Z"
+    },
+    {
+      "title": "Write tests",
+      "status": "todo",
+      "priority": "medium",
+      "userId": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "projectId": "4e2c5100-6bdb-4764-ac59-91b4efd83185",
+      "tags": [
+        "testing"
+      ],
+      "id": "811dc681-3d41-461b-a716-474aafacefda",
+      "createdAt": "2026-06-06T08:24:50.766Z",
+      "updatedAt": "2026-06-06T08:24:50.766Z"
+    },
+    {
+      "title": "Deploy to production",
+      "status": "todo",
+      "priority": "high",
+      "userId": "cdcf3194-acd1-4cfa-a053-309f66f7afbb",
+      "projectId": "4e2c5100-6bdb-4764-ac59-91b4efd83185",
+      "tags": [
+        "devops"
+      ],
+      "id": "beb5ce85-833b-4113-8b62-fd99a5a1380c",
+      "createdAt": "2026-06-06T08:24:50.767Z",
+      "updatedAt": "2026-06-06T08:24:50.767Z"
+    }
+  ]
+}
