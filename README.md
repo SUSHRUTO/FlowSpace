@@ -1,6 +1,5 @@
 # TaskFlow — Next.js Full Stack Project
 
-> Web Dev Cohort 2026 · Full Stack Assignment
 
 ## Project Overview
 TaskFlow is a full-stack task and project management app built entirely with **Next.js 14 App Router**. It demonstrates all required concepts: SSR, SSG, ISR, API Routes, Server Actions, database integration, authentication, and file-based routing.
@@ -31,11 +30,11 @@ TaskFlow is a full-stack task and project management app built entirely with **N
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/SUSHRUTO/FlowSpace
 cd taskflow
 
 # 2. Install dependencies
-npm install
+pnpm install
 
 # 3. Copy environment variables
 cp .env.example .env
@@ -44,6 +43,12 @@ cp .env.example .env
 npm run dev
 
 # 5. Open http://localhost:3000
+```
+
+## 🚀 Live Demo
+
+```
+🔗 Live App: https://your-domain.up.railway.app
 ```
 
 ## Environment Variables
@@ -183,3 +188,9 @@ src/
 - In production, replace with PostgreSQL/MongoDB via Prisma
 - No email verification (out of scope)
 - Single-user per session (no team features)
+
+## 👨‍💻 Author
+
+```
+Built by Sushruto Majumdar
+```
